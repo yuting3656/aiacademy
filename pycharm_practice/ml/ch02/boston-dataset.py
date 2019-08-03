@@ -71,7 +71,8 @@ problems.
    - many more! (see http://archive.ics.uci.edu/ml/datasets/Housing)
 """
 
-
+plt.scatter(data.data[:, 0], data.target)
+plt.show()
 
 
 
